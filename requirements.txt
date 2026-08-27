@@ -1,0 +1,7 @@
+# VS Code Folder Opener - Tidak butuh library tambahan
+# Aplikasi ini 100% pakai library bawaan Python (tkinter)
+# Jadi file ini sengaja kosong agar bisa langsung jalan dengan: python main.py
+
+# OPSIONAL - hanya jika ingin build jadi .exe
+# pyinstaller==6.20.0
+# Jika butuh build, jalankan: pip install pyinstaller
