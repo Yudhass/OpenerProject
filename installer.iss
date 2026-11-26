@@ -1,12 +1,12 @@
-; Inno Setup Script untuk VS Code Folder Opener
+; Inno Setup Script untuk Project IDE Opener
 ; Install Inno Setup dari https://jrsoftware.org/isinfo.php lalu compile file ini
 ; Cara: klik kanan installer.iss -> Compile, atau jalankan: "C:\Program Files (x86)\Inno Setup 6\ISCC.exe" installer.iss
 
-#define MyAppName "VS Code Folder Opener"
+#define MyAppName "Project IDE Opener"
 #define MyAppVersion "2.0 Modern"
 #define MyAppPublisher "Yudha Pratama"
 #define MyAppURL "https://github.com/yudha/opener"
-#define MyAppExeName "VSCodeOpener-Modern.exe"
+#define MyAppExeName "ProjectIDEOpener.exe"
 
 [Setup]
 AppId={{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}
@@ -18,10 +18,11 @@ AppSupportURL={#MyAppURL}
 AppUpdatesURL={#MyAppURL}
 DefaultDirName={autopf}\{#MyAppName}
 DefaultGroupName={#MyAppName}
+UsePreviousAppDir=no
 AllowNoIcons=yes
 LicenseFile=
 OutputDir=dist
-OutputBaseFilename=VSCodeOpener-Setup-v2.0
+OutputBaseFilename=ProjectIDEOpener-Setup-v2.0
 Compression=lzma
 SolidCompression=yes
 WizardStyle=modern

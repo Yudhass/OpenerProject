@@ -1,5 +1,5 @@
 @echo off
-title Build Installer - VS Code Folder Opener
+title Build Installer - Project IDE Opener
 color 0A
 echo ===================================================
 echo   BUILD INSTALLER WINDOWS (.exe Setup)
@@ -9,16 +9,16 @@ echo.
 REM Step 1: Build .exe via PyInstaller
 echo [1/3] Building EXE...
 if exist logo.ico (
-    pyinstaller --onefile --windowed --name "VSCodeOpener-Modern" --icon=logo.ico --clean main.py
+    pyinstaller --onefile --windowed --name "ProjectIDEOpener" --icon=logo.ico --add-data "logo.ico;." --add-data "logo.png;." --clean main.py
 ) else (
-    pyinstaller --onefile --windowed --name "VSCodeOpener-Modern" --clean main.py
+    pyinstaller --onefile --windowed --name "ProjectIDEOpener" --clean main.py
 )
-if not exist "dist\VSCodeOpener-Modern.exe" (
+if not exist "dist\ProjectIDEOpener.exe" (
     echo [ERROR] EXE gagal dibuat!
     pause
     exit /b 1
 )
-echo [OK] EXE siap: dist\VSCodeOpener-Modern.exe
+echo [OK] EXE siap: dist\ProjectIDEOpener.exe
 echo.
 
 REM Step 2: Cek Inno Setup
@@ -47,9 +47,9 @@ if %errorlevel% neq 0 (
 
 echo.
 echo ===================================================
-echo   SUKSES! Installer ada di: dist\VSCodeOpener-Setup-v2.0.exe
+echo   SUKSES! Installer ada di: dist\ProjectIDEOpener-Setup-v2.0.exe
 echo ===================================================
-dir dist\VSCodeOpener-Setup*.exe | findstr VSCodeOpener
+dir dist\ProjectIDEOpener-Setup*.exe | findstr ProjectIDEOpener
 echo.
 echo Installer ini bisa:
 echo  - Next-Next-Finish wizard

@@ -1,7 +1,7 @@
 @echo off
-title Build EXE - VS Code Folder Opener
+title Build EXE - Project IDE Opener
 echo ===================================================
-echo   BUILD .EXE - VS Code Folder Opener
+echo   BUILD .EXE - Project IDE Opener
 echo ===================================================
 echo.
 
@@ -16,17 +16,17 @@ echo.
 echo Building...
 if exist logo.ico (
     echo Menggunakan icon: logo.ico
-    pyinstaller --onefile --windowed --name "VSCodeOpener-Modern" --icon=logo.ico --clean main.py
+    pyinstaller --onefile --windowed --name "ProjectIDEOpener" --icon=logo.ico --add-data "logo.ico;." --add-data "logo.png;." --clean main.py
 ) else (
-    pyinstaller --onefile --windowed --name "VSCodeOpener-Modern" --clean main.py
+    pyinstaller --onefile --windowed --name "ProjectIDEOpener" --clean main.py
 )
 
 echo.
-if exist "dist\VSCodeOpener.exe" (
+if exist "dist\ProjectIDEOpener.exe" (
     echo ===================================================
-    echo   SUKSES! File ada di: dist\VSCodeOpener.exe
+    echo   SUKSES! File ada di: dist\ProjectIDEOpener.exe
     echo   Ukuran:
-    dir "dist\VSCodeOpener.exe" | findstr "VSCodeOpener"
+    dir "dist\ProjectIDEOpener.exe" | findstr "ProjectIDEOpener"
     echo.
     echo   File ini bisa dikopikan ke komputer Windows lain
     echo   tanpa perlu install Python!

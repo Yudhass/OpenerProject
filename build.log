@@ -1,14 +1,14 @@
-[27/08/2026  8:13:45,77] ===== BUILD START ===== 
-[27/08/2026  8:13:45,77] APP: VS Code Folder Opener v2.0 Modern 
-[27/08/2026  8:13:45,77] [INFO] =================================================== 
-[27/08/2026  8:13:45,77] --- PyInstaller log start --- 
-96 INFO: PyInstaller: 6.20.0, contrib hooks: 2026.5
-96 INFO: Python: 3.10.11
-104 INFO: Platform: Windows-10-10.0.26200-SP0
-104 INFO: Python environment: C:\Users\Microsoft\AppData\Local\Programs\Python\Python310
-105 INFO: wrote D:\GIT_DESKTOP\OpenerProject\VSCodeOpener-Modern.spec
-106 INFO: Removing temporary files and cleaning cache in C:\Users\Microsoft\AppData\Local\pyinstaller
-111 INFO: Module search paths (PYTHONPATH):
+[26/11/2026  7:48:45,77] ===== BUILD START ===== 
+[26/11/2026  7:48:45,77] APP: Project IDE Opener v2.0 Modern 
+[26/11/2026  7:48:45,77] [INFO] =================================================== 
+[26/11/2026  7:48:45,77] --- PyInstaller log start --- 
+103 INFO: PyInstaller: 6.22.3, contrib hooks: 2026.7
+103 INFO: Python: 3.10.11
+114 INFO: Platform: Windows-10-10.0.26200-SP0
+114 INFO: Python environment: C:\Users\Microsoft\AppData\Local\Programs\Python\Python310
+115 INFO: wrote D:\GIT_DESKTOP\OpenerProject\ProjectIDEOpener.spec
+118 INFO: Removing temporary files and cleaning cache in C:\Users\Microsoft\AppData\Local\pyinstaller
+122 INFO: Module search paths (PYTHONPATH):
 ['C:\\Users\\Microsoft\\AppData\\Local\\Programs\\Python\\Python310\\Scripts\\pyinstaller.exe',
  'C:\\Users\\Microsoft\\AppData\\Local\\Programs\\Python\\Python310\\python310.zip',
  'C:\\Users\\Microsoft\\AppData\\Local\\Programs\\Python\\Python310\\DLLs',
@@ -19,156 +19,65 @@
  'C:\\Users\\Microsoft\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\win32\\lib',
  'C:\\Users\\Microsoft\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\Pythonwin',
  'D:\\GIT_DESKTOP\\OpenerProject']
-290 INFO: Appending 'datas' from .spec
-290 INFO: checking Analysis
-290 INFO: Building Analysis because Analysis-00.toc is non existent
-290 INFO: Looking for Python shared library...
-290 INFO: Using Python shared library: C:\Users\Microsoft\AppData\Local\Programs\Python\Python310\python310.dll
-290 INFO: Running Analysis Analysis-00.toc
-290 INFO: Target bytecode optimization level: 0
-290 INFO: Initializing module dependency graph...
-292 INFO: Initializing module graph hook caches...
-305 INFO: Analyzing modules for base_library.zip ...
-728 INFO: Processing standard module hook 'hook-heapq.py' from 'C:\\Users\\Microsoft\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\PyInstaller\\hooks'
-771 INFO: Processing standard module hook 'hook-encodings.py' from 'C:\\Users\\Microsoft\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\PyInstaller\\hooks'
-1596 INFO: Processing standard module hook 'hook-pickle.py' from 'C:\\Users\\Microsoft\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\PyInstaller\\hooks'
-2177 INFO: Caching module dependency graph...
-2203 INFO: Analyzing D:\GIT_DESKTOP\OpenerProject\main.py
-2254 INFO: Processing pre-find-module-path hook 'hook-tkinter.py' from 'C:\\Users\\Microsoft\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\PyInstaller\\hooks\\pre_find_module_path'
-2255 INFO: TclTkInfo: initializing cached Tcl/Tk info...
-2456 INFO: Processing standard module hook 'hook-_tkinter.py' from 'C:\\Users\\Microsoft\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\PyInstaller\\hooks'
-2523 INFO: Processing standard module hook 'hook-_ctypes.py' from 'C:\\Users\\Microsoft\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\PyInstaller\\hooks'
-2526 INFO: Processing module hooks (post-graph stage)...
-2529 INFO: Processing standard module hook 'hook-_tkinter.py' from 'C:\\Users\\Microsoft\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\PyInstaller\\hooks'
-2537 INFO: Performing binary vs. data reclassification (925 entries)
-2599 INFO: Looking for ctypes DLLs
-2604 INFO: Analyzing run-time hooks ...
-2605 INFO: Including run-time hook 'pyi_rth_inspect.py' from 'C:\\Users\\Microsoft\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\PyInstaller\\hooks\\rthooks'
-2606 INFO: Including run-time hook 'pyi_rth__tkinter.py' from 'C:\\Users\\Microsoft\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\PyInstaller\\hooks\\rthooks'
-2626 INFO: Creating base_library.zip...
-2859 INFO: Looking for dynamic libraries
-2961 INFO: Extra DLL search directories (AddDllDirectory): []
-2961 INFO: Extra DLL search directories (PATH): []
-3141 INFO: Warnings written to D:\GIT_DESKTOP\OpenerProject\build\VSCodeOpener-Modern\warn-VSCodeOpener-Modern.txt
-3157 INFO: Graph cross-reference written to D:\GIT_DESKTOP\OpenerProject\build\VSCodeOpener-Modern\xref-VSCodeOpener-Modern.html
-3182 INFO: checking PYZ
-3182 INFO: Building PYZ because PYZ-00.toc is non existent
-3182 INFO: Building PYZ (ZlibArchive) D:\GIT_DESKTOP\OpenerProject\build\VSCodeOpener-Modern\PYZ-00.pyz
-3274 INFO: Building PYZ (ZlibArchive) D:\GIT_DESKTOP\OpenerProject\build\VSCodeOpener-Modern\PYZ-00.pyz completed successfully.
-3288 INFO: checking PKG
-3288 INFO: Building PKG because PKG-00.toc is non existent
-3288 INFO: Building PKG (CArchive) VSCodeOpener-Modern.pkg
-5251 INFO: Building PKG (CArchive) VSCodeOpener-Modern.pkg completed successfully.
-5267 INFO: Bootloader C:\Users\Microsoft\AppData\Local\Programs\Python\Python310\lib\site-packages\PyInstaller\bootloader\Windows-64bit-intel\runw.exe
-5267 INFO: checking EXE
-5267 INFO: Building EXE because EXE-00.toc is non existent
-5267 INFO: Building EXE from EXE-00.toc
-5267 INFO: Copying bootloader EXE to D:\GIT_DESKTOP\OpenerProject\dist\VSCodeOpener-Modern.exe
-5271 INFO: Copying icon to EXE
-5274 INFO: Copying 0 resources to EXE
-5274 INFO: Embedding manifest in EXE
-5277 INFO: Appending PKG archive to EXE
-5282 INFO: Fixing EXE headers
-5356 INFO: Building EXE from EXE-00.toc completed successfully.
-5370 INFO: Build complete! The results are available in: D:\GIT_DESKTOP\OpenerProject\dist
-[27/08/2026  8:13:51,29] --- PyInstaller log end --- 
-[27/08/2026  8:13:51,30] [OK] EXE jadi: dist\VSCodeOpener-Modern.exe (10 MB, 11486553 bytes) 
-[27/08/2026  8:13:51,30] [STEP] [2/4] Menyiapkan installer.iss... 
-[27/08/2026  8:13:51,30] [INFO]   installer.iss sudah ada, pakai yang ada 
-[27/08/2026  8:13:51,31] [STEP] [3/4] Mengecek Inno Setup Compiler (ISCC.exe)... 
-[27/08/2026  8:13:51,31] [INFO]   2. installer.iss --ISCC-- dist\VSCodeOpener-Setup-v2.0.exe ( MB) 
-[27/08/2026  8:13:51,32] [INFO]   Log lengkap: build.log 
-[27/08/2026  8:13:51,32] [INFO]   Durasi:  8:13:45,77 -,32 
-[27/08/2026  8:13:54,16] [STEP] [4/4] Compile installer.iss - (ISCC) 
-[27/08/2026  8:13:54,16] --- ISCC log start --- 
-Inno Setup 6 Command-Line Compiler
-Copyright (C) 1997-2026 Jordan Russell. All rights reserved.
-Portions Copyright (C) 2000-2026 Martijn Laan. All rights reserved.
-Portions Copyright (C) 2001-2004 Alex Yackimoff. All rights reserved.
-https://www.innosetup.com
-
-Compiler engine version: Inno Setup 6.7.3
-Non-commercial use only
-
-Preprocessing
-   Reading file: C:\Program Files (x86)\Inno Setup 6\ISPPBuiltins.iss
-Parsing [Setup] section, line 12
-Parsing [Setup] section, line 13
-Parsing [Setup] section, line 14
-Parsing [Setup] section, line 15
-Parsing [Setup] section, line 16
-Parsing [Setup] section, line 17
-Parsing [Setup] section, line 18
-Parsing [Setup] section, line 19
-Parsing [Setup] section, line 20
-Parsing [Setup] section, line 21
-Parsing [Setup] section, line 22
-Parsing [Setup] section, line 23
-Parsing [Setup] section, line 24
-Parsing [Setup] section, line 25
-Parsing [Setup] section, line 26
-Parsing [Setup] section, line 27
-Parsing [Setup] section, line 28
-Parsing [Setup] section, line 29
-Parsing [Setup] section, line 30
-Parsing [Setup] section, line 31
-Parsing [Setup] section, line 32
-Parsing [Setup] section, line 33
-Parsing [Setup] section, line 34
-Reading file (WizardImageFile)
-Reading file (WizardSmallImageFile)
-Preparing Setup program executable
-   Verification successful
-   Updating icons (Setup.e32)
-   Updating version info (Setup.e32)
-Determining language code pages
-Parsing [Languages] section, line 37
-   Reading file: C:\Program Files (x86)\Inno Setup 6\Default.isl
-Parsing [Languages] section, line 38
-   Reading file: C:\Program Files (x86)\Inno Setup 6\Default.isl
-   Messages in script file
-Reading default messages from Default.isl
-Parsing [Languages] section, line 37
-   Reading file: C:\Program Files (x86)\Inno Setup 6\Default.isl
-Parsing [Languages] section, line 38
-   Reading file: C:\Program Files (x86)\Inno Setup 6\Default.isl
-Parsing [LangOptions], [Messages], and [CustomMessages] sections
-   Messages in script file
-Reading [Code] section
-Parsing [Tasks] section, line 41
-Parsing [Tasks] section, line 42
-Parsing [Icons] section, line 52
-Parsing [Icons] section, line 53
-Parsing [Icons] section, line 54
-Parsing [Icons] section, line 55
-Parsing [UninstallDelete] section, line 61
-Parsing [UninstallDelete] section, line 62
-Parsing [Run] section, line 58
-Parsing [Files] section, line 45
-Parsing [Files] section, line 46
-Parsing [Files] section, line 47
-Compiling [Code] section
-Creating setup files
-   Verification successful
-   Updating icons (Setup.exe)
-   Compressing: D:\GIT_DESKTOP\OpenerProject\dist\VSCodeOpener-Modern.exe
-   Compressing: D:\GIT_DESKTOP\OpenerProject\logo.ico
-   Compressing: D:\GIT_DESKTOP\OpenerProject\logo.png
-   Compressing Setup program executable
-   Updating version info (Setup.exe)
-   Updating manifest (Setup.exe)
-
-Warning: Architecture identifier "x64" is deprecated. Substituting "x64os", but note that "x64compatible" is preferred in most cases. See the "Architecture Identifiers" topic in help file for more information.
-Warning: Minimum version specified by the OnlyBelowVersion parameter of an entry should be higher than 6.1 if not 0 otherwise the entry is never processed. The entry should probably be removed. (Windows Vista/Server 2008 are no longer supported.)
-
-Successful compile (2,204 sec). Resulting Setup program filename is:
-D:\GIT_DESKTOP\OpenerProject\dist\VSCodeOpener-Setup-v2.0.exe
-[27/08/2026  8:13:56,39] --- ISCC log end (exit=0) --- 
-[27/08/2026  8:13:56,40] [OK] Installer jadi: dist\VSCodeOpener-Setup-v2.0.exe (15 MB, 15996044 bytes) 
-[27/08/2026  8:13:56,40] [INFO] =================================================== 
-[27/08/2026  8:13:56,40] [INFO]   BUILD SELESAI - SEMUA TAHAPAN SUKSES 
-[27/08/2026  8:13:56,41] [INFO] =================================================== 
-[27/08/2026  8:13:56,41] [INFO]   1. main.py --PyInstaller-- dist\VSCodeOpener-Modern.exe (10 MB) 
-[27/08/2026  8:13:56,41] [INFO]   2. installer.iss --ISCC-- dist\VSCodeOpener-Setup-v2.0.exe (15 MB) 
-[27/08/2026  8:13:56,41] [INFO]   Log lengkap: build.log 
-[27/08/2026  8:13:56,42] [INFO]   Durasi:  8:13:45,77 -,41 
+314 INFO: Appending 'datas' from .spec
+315 INFO: checking Analysis
+315 INFO: Building Analysis because Analysis-00.toc is non existent
+315 INFO: Looking for Python shared library...
+315 INFO: Using Python shared library: C:\Users\Microsoft\AppData\Local\Programs\Python\Python310\python310.dll
+315 INFO: Running Analysis Analysis-00.toc
+315 INFO: Target bytecode optimization level: 0
+315 INFO: Initializing module dependency graph...
+316 INFO: Initializing module graph hook caches...
+328 INFO: Analyzing modules for base_library.zip ...
+755 INFO: Processing standard module hook 'hook-heapq.py' from 'C:\\Users\\Microsoft\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\PyInstaller\\hooks'
+937 INFO: Processing standard module hook 'hook-encodings.py' from 'C:\\Users\\Microsoft\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\PyInstaller\\hooks'
+1179 INFO: Processing standard module hook 'hook-math.py' from 'C:\\Users\\Microsoft\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\PyInstaller\\hooks'
+1592 INFO: Processing standard module hook 'hook-pickle.py' from 'C:\\Users\\Microsoft\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\PyInstaller\\hooks'
+2197 INFO: Caching module dependency graph...
+2224 INFO: Analyzing D:\GIT_DESKTOP\OpenerProject\main.py
+2284 INFO: Processing pre-find-module-path hook 'hook-tkinter.py' from 'C:\\Users\\Microsoft\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\PyInstaller\\hooks\\pre_find_module_path'
+2285 INFO: TclTkInfo: initializing cached Tcl/Tk info...
+2478 INFO: Processing standard module hook 'hook-_tkinter.py' from 'C:\\Users\\Microsoft\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\PyInstaller\\hooks'
+2518 INFO: Processing standard module hook 'hook-webbrowser.py' from 'C:\\Users\\Microsoft\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\PyInstaller\\hooks'
+2544 INFO: Processing standard module hook 'hook-_ctypes.py' from 'C:\\Users\\Microsoft\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\PyInstaller\\hooks'
+2547 INFO: Processing module hooks (post-graph stage)...
+2549 INFO: Processing standard module hook 'hook-_tkinter.py' from 'C:\\Users\\Microsoft\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\PyInstaller\\hooks'
+2556 INFO: Performing binary vs. data reclassification (925 entries)
+2627 INFO: Looking for ctypes DLLs
+2634 INFO: Analyzing run-time hooks ...
+2635 INFO: Including run-time hook 'pyi_rth_inspect.py' from 'C:\\Users\\Microsoft\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\PyInstaller\\hooks\\rthooks'
+2636 INFO: Including run-time hook 'pyi_rth__tkinter.py' from 'C:\\Users\\Microsoft\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\PyInstaller\\hooks\\rthooks'
+2655 INFO: Creating base_library.zip...
+2666 INFO: Looking for dynamic libraries
+2763 INFO: Extra DLL search directories (AddDllDirectory): []
+2763 INFO: Extra DLL search directories (PATH): []
+2975 INFO: Warnings written to D:\GIT_DESKTOP\OpenerProject\build\ProjectIDEOpener\warn-ProjectIDEOpener.txt
+2987 INFO: Graph cross-reference written to D:\GIT_DESKTOP\OpenerProject\build\ProjectIDEOpener\xref-ProjectIDEOpener.html
+3010 INFO: checking PYZ
+3010 INFO: Building PYZ because PYZ-00.toc is non existent
+3010 INFO: Building PYZ (ZlibArchive) D:\GIT_DESKTOP\OpenerProject\build\ProjectIDEOpener\PYZ-00.pyz
+3097 INFO: Building PYZ (ZlibArchive) D:\GIT_DESKTOP\OpenerProject\build\ProjectIDEOpener\PYZ-00.pyz completed successfully.
+3111 INFO: checking PKG
+3111 INFO: Building PKG because PKG-00.toc is non existent
+3111 INFO: Building PKG (CArchive) ProjectIDEOpener.pkg
+5062 INFO: Building PKG (CArchive) ProjectIDEOpener.pkg completed successfully.
+5077 INFO: Bootloader C:\Users\Microsoft\AppData\Local\Programs\Python\Python310\lib\site-packages\PyInstaller\bootloader\Windows-64bit-intel\runw.exe
+5077 INFO: checking EXE
+5077 INFO: Building EXE because EXE-00.toc is non existent
+5077 INFO: Building EXE from EXE-00.toc
+5078 INFO: Copying bootloader EXE to D:\GIT_DESKTOP\OpenerProject\dist\ProjectIDEOpener.exe
+5081 INFO: Copying icon to EXE
+5085 INFO: Copying 0 resources to EXE
+5085 INFO: Embedding manifest in EXE
+5088 INFO: Appending PKG archive to EXE
+5094 INFO: Fixing EXE headers
+5168 INFO: Building EXE from EXE-00.toc completed successfully.
+5182 INFO: Build complete! The results are available in: D:\GIT_DESKTOP\OpenerProject\dist
+[26/11/2026  7:48:51,11] --- PyInstaller log end --- 
+[26/11/2026  7:48:51,11] [OK] EXE jadi: dist\ProjectIDEOpener.exe (10 MB, 11520944 bytes) 
+[26/11/2026  7:48:51,12] [STEP] [2/4] Menyiapkan installer.iss... 
+[26/11/2026  7:48:51,12] [INFO]   installer.iss sudah ada, pakai yang ada 
+[26/11/2026  7:48:51,13] [STEP] [3/4] Mengecek Inno Setup Compiler (ISCC.exe)... 
+[26/11/2026  7:48:51,13] [INFO]   2. installer.iss --ISCC-- dist\ProjectIDEOpener-Setup-v2.0.exe ( MB) 
+[26/11/2026  7:48:51,13] [INFO]   Log lengkap: build.log 
+[26/11/2026  7:48:51,13] [INFO]   Durasi:  7:48:45,76 -,13 

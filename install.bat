@@ -1,8 +1,8 @@
 @echo off
-title Install - VS Code Folder Opener
+title Install - Project IDE Opener
 color 0A
 echo ===================================================
-echo   VS CODE FOLDER OPENER - INSTALLER
+echo   PROJECT IDE OPENER - INSTALLER
 echo ===================================================
 echo.
 

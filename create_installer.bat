@@ -1,10 +1,10 @@
 @echo off
 setlocal EnableDelayedExpansion
-title CREATE INSTALLER - VS Code Folder Opener
+title CREATE INSTALLER - Project IDE Opener
 color 0A
 echo ===================================================
 echo   CREATE WINDOWS INSTALLER (1-Click)
-echo   VS Code Folder Opener v2.0 Modern
+echo   Project IDE Opener v2.0 Modern
 echo ===================================================
 echo.
 
@@ -24,15 +24,15 @@ REM --- Step 1: Build EXE Portable ---
 echo.
 echo [1/3] Building EXE portable...
 if exist "logo.ico" (
-    pyinstaller --onefile --windowed --name "VSCodeOpener-Modern" --icon=logo.ico --clean main.py
+    pyinstaller --onefile --windowed --name "ProjectIDEOpener" --icon=logo.ico --add-data "logo.ico;." --add-data "logo.png;." --clean main.py
 ) else (
-    pyinstaller --onefile --windowed --name "VSCodeOpener-Modern" --clean main.py
+    pyinstaller --onefile --windowed --name "ProjectIDEOpener" --clean main.py
 )
-if not exist "dist\VSCodeOpener-Modern.exe" (
+if not exist "dist\ProjectIDEOpener.exe" (
     echo [ERROR] Gagal build EXE!
     pause & exit /b 1
 )
-echo [OK] EXE: dist\VSCodeOpener-Modern.exe
+echo [OK] EXE: dist\ProjectIDEOpener.exe
 
 REM --- Step 2: Cek Inno Setup, auto-download jika belum ada ---
 echo.
@@ -74,7 +74,7 @@ echo.
 echo ===================================================
 echo   SUKSES! INSTALLER SIAP
 echo ===================================================
-for %%F in (dist\VSCodeOpener-Setup*.exe) do (
+for %%F in (dist\ProjectIDEOpener-Setup*.exe) do (
     echo   File: %%F
     echo   Size: %%~zF bytes
 )
@@ -84,12 +84,12 @@ echo  - Wizard Next-Next-Finish (Modern)
 echo  - Icon logo.ico
 echo  - Start Menu + Desktop shortcut (opsional)
 echo  - Uninstall via Settings ^> Apps
-echo  - Install path: C:\Program Files\VS Code Folder Opener\
+echo  - Install path: %LOCALAPPDATA%\Programs\Project IDE Opener\
 echo.
 choice /M "Buka folder dist dan jalankan installer"
 if %errorlevel% equ 1 (
     explorer dist
-    start "" "dist\VSCodeOpener-Setup-v2.0.exe"
+    start "" "dist\ProjectIDEOpener-Setup-v2.0.exe"
 )
 pause
 exit /b 0
@@ -97,7 +97,7 @@ exit /b 0
 :NOINNO
 echo.
 echo [INFO] Skip installer. EXE portable tetap tersedia:
-echo   dist\VSCodeOpener-Modern.exe
+echo   dist\ProjectIDEOpener.exe
 echo   File ini bisa langsung dipakai tanpa install.
 explorer dist
 pause
