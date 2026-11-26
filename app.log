@@ -1,0 +1,19 @@
+[07:40:43] [INFO] icon try: ico=D:\GIT_DESKTOP\OpenerProject\logo.ico exists=True png=D:\GIT_DESKTOP\OpenerProject\logo.png exists=True
+[07:40:43] [INFO] iconbitmap OK via <function App._set_window_icon.<locals>.<lambda> at 0x00000231D2AD4040>
+[07:40:43] [INFO] iconphoto PNG OK: D:\GIT_DESKTOP\OpenerProject\logo.png
+[07:40:43] [INFO] icon try: ico=D:\GIT_DESKTOP\OpenerProject\logo.ico exists=True png=D:\GIT_DESKTOP\OpenerProject\logo.png exists=True
+[07:40:43] [INFO] iconbitmap OK via <function App._set_window_icon.<locals>.<lambda> at 0x00000231CED23F40>
+[07:40:43] [INFO] iconphoto PNG OK: D:\GIT_DESKTOP\OpenerProject\logo.png
+[07:41:25] [INFO] icon try: ico=D:\GIT_DESKTOP\OpenerProject\logo.ico exists=True png=D:\GIT_DESKTOP\OpenerProject\logo.png exists=True
+[07:41:25] [INFO] iconbitmap OK via <function App._set_window_icon.<locals>.<lambda> at 0x000001907C534040>
+[07:41:25] [INFO] iconphoto PNG OK: D:\GIT_DESKTOP\OpenerProject\logo.png
+[07:41:25] [INFO] icon try: ico=D:\GIT_DESKTOP\OpenerProject\logo.ico exists=True png=D:\GIT_DESKTOP\OpenerProject\logo.png exists=True
+[07:41:25] [INFO] iconbitmap OK via <function App._set_window_icon.<locals>.<lambda> at 0x0000019078783F40>
+[07:41:26] [INFO] iconphoto PNG OK: D:\GIT_DESKTOP\OpenerProject\logo.png
+[07:42:02] [INFO] icon try: ico=D:\GIT_DESKTOP\OpenerProject\logo.ico exists=True png=D:\GIT_DESKTOP\OpenerProject\logo.png exists=True
+[07:42:02] [INFO] iconbitmap OK via <function App._set_window_icon.<locals>.<lambda> at 0x0000018C94E14040>
+[07:42:02] [INFO] iconphoto PNG OK: D:\GIT_DESKTOP\OpenerProject\logo.png
+[07:42:02] [INFO] icon try: ico=D:\GIT_DESKTOP\OpenerProject\logo.ico exists=True png=D:\GIT_DESKTOP\OpenerProject\logo.png exists=True
+[07:42:02] [INFO] iconbitmap OK via <function App._set_window_icon.<locals>.<lambda> at 0x0000018C90FF3F40>
+[07:42:02] [INFO] iconphoto PNG OK: D:\GIT_DESKTOP\OpenerProject\logo.png
+[07:42:44] [INFO] 🎨 Tema diubah ke Obsidian Dark

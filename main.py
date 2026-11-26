@@ -1,7 +1,7 @@
 """
-VS Code Folder Opener - Modern UI v2.0
+Project IDE Opener - Modern UI v2.0
 ------------------------------------------------
-Modern + shortcut di Favorit (VS Code / Explorer / Both)
+Modern + shortcut di Favorit (IDE / Explorer / Both)
 Jalan: python main.py  |  Build: build_exe.bat
 """
 
@@ -39,7 +39,7 @@ def log(msg, level="INFO"):
             f.write(line + "\n")
     except: pass
 
-APP_TITLE = "VS Code Folder Opener"
+APP_TITLE = "Project IDE Opener"
 APP_VERSION = "2.0 Modern"
 CONFIG_FILE = Path.home() / ".vscode_opener_config.json"
 
@@ -507,7 +507,7 @@ class App(tk.Tk):
             import ctypes
             try: ctypes.windll.shcore.SetProcessDpiAwareness(1)
             except Exception: pass
-            ctypes.windll.shell32.SetCurrentProcessExplicitAppUserModelID("Yudha.VSCodeFolderOpener.2.0")
+            ctypes.windll.shell32.SetCurrentProcessExplicitAppUserModelID("Yudha.ProjectIDEOpener.2.0")
         except Exception: pass
         self.title(f"{APP_TITLE} v{APP_VERSION}")
         self.geometry("1250x760")
